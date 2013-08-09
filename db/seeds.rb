@@ -52,7 +52,7 @@ end
 {
   company_name: 'Istart',
   host: 'istart.herkuapp.com',
-  base_url: "http://istart/herokuapp.com",
+  base_url: "http://istart.herokuapp.com",
   blog_url: "http://blog.catarse.me",
   email_contact: 'contato@catarse.me',
   email_payments: 'financeiro@catarse.me',
