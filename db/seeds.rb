@@ -50,22 +50,22 @@
 end
 
 {
-  company_name: 'Catarse',
-  host: 'catarse.me',
-  base_url: "http://catarse.me",
+  company_name: 'Istart',
+  host: 'istart.herkuapp.com',
+  base_url: "http://istart/herokuapp.com",
   blog_url: "http://blog.catarse.me",
   email_contact: 'contato@catarse.me',
   email_payments: 'financeiro@catarse.me',
   email_projects: 'projetos@catarse.me',
   email_system: 'system@catarse.me',
   email_no_reply: 'no-reply@catarse.me',
-  facebook_url: "http://facebook.com/catarse.me",
-  facebook_app_id: '173747042661491',
-  twitter_username: "catarse",
+  facebook_url: "http://facebook.com/isto.se",
+  facebook_app_id: '157496881109292',
+  twitter_username: "sumanmbula",
   mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
-  catarse_fee: '0.13',
+  catarse_fee: '0.10',
   support_forum: 'http://suporte.catarse.me/',
-  base_domain: 'catarse.me',
+  base_domain: 'istart.herokuapp.com',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key'
 }.each do |name, value|
@@ -85,7 +85,7 @@ Channel.find_or_create_by_name!(
 
 OauthProvider.find_or_create_by_name!(
   name: 'facebook',
-  key: 'your_facebook_app_key',
-  secret: 'your_facebook_app_secret',
+  key: '157496881109292',
+  secret: 'bd3b5e4b26d97ddd34a5dfd2fe8f0663',
   path: 'facebook'
 )
